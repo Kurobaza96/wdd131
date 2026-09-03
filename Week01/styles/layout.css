@@ -29,8 +29,7 @@ nav ul li a {
     padding: 10px 20px;
     color: #ffffff;
     text-decoration: none;
-    transition: all 0.3s ease;
-    /* Ensures smooth animation */
+    transition: all 0.3s ease;    
 }
 
 nav ul li a:hover {
@@ -54,8 +53,7 @@ main {
 }
 
 .content {
-    flex: 3; /* Takes up 75% of space */
-    
+    flex: 3; /* Takes up 75% of space */    
     background-color: #f9f9f9;
 }
 
