@@ -23,3 +23,17 @@ nav ul {
     align-items: center;
     margin: 0;
 }
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    /* Ensures smooth animation */
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
