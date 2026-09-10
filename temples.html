@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Emanuel Herrera</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Emanuel Herrera">
+    <meta name="author" content="Emanuel Herrera">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+
+            <a class="site-title" href="temples.html">
+                Temple Album
+            </a>
+
+            <button id="menu-button" class="menu-button" aria-label="Open navigation menu" aria-expanded="false"
+                aria-controls="primary-nav">
+
+                <span class="menu-icon">☰</span>
+
+            </button>
+
+            <nav id="primary-nav" aria-label="Primary navigation">
+                <a href="#home">Home</a>
+                <a href="#old">Old</a>
+                <a href="#new">New</a>
+                <a href="#large">Large</a>
+                <a href="#small">Small</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main id="home">
+
+        <h1>Temple Album</h1>
+
+        <section class="temple-grid" aria-label="Temple photographs">
+
+            <figure id="old">
+
+                <img src="images/salt-lake.jpg"
+                    alt="Salt Lake Temple in Utah" loading="lazy" width="800" height="533">
+                <figcaption>
+                    Salt Lake Temple
+                </figcaption>
+
+            </figure>
+
+
+            <figure>
+
+                <img src="images/washington-dc.jpg"
+                    alt="Washington D.C. Temple" loading="lazy" width="800" height="533">
+                <figcaption>
+                    Washington D.C. Temple
+                </figcaption>
+
+            </figure>
+
+
+            <figure>
+
+                <img src="images/rome.jpg"
+                    alt="Rome Italy Temple" loading="lazy" width="800" height="533">
+                <figcaption>
+                    Rome Italy Temple
+                </figcaption>
+
+            </figure>
+
+
+            <figure id="new">
+
+                <img src="images/guatemala-city.jpg"
+                    alt="Guatemala City Guatemala Temple" loading="lazy" width="800" height="533">
+                <figcaption>
+                    Guatemala City Guatemala Temple
+                </figcaption>
+
+            </figure>
+
+
+            <figure>
+
+                <img src="images/sydney.jpg"
+                    alt="Sydney Australia Temple" loading="lazy" width="800" height="533">
+                <figcaption>
+                    Sydney Australia Temple
+                </figcaption>
+
+            </figure>
+
+
+            <figure>
+
+                <img src="images/Provo.jpg"
+                    alt="Provo City Center Temple" loading="lazy" width="800" height="533">
+                <figcaption>
+                    Provo City Center Temple
+                </figcaption>
+
+            </figure>
+
+
+            <figure id="large">
+
+                <img src="images/la-california.jpg"
+                    alt="Los Angeles California Temple" loading="lazy" width="800" height="533">
+                <figcaption>
+                    Los Angeles California Temple
+                </figcaption>
+
+            </figure>
+
+
+            <figure>
+
+                <img src="images/hong-kong.jpg"
+                    alt="Hong Kong China Temple" loading="lazy" width="800" height="533">
+                <figcaption>
+                    Hong Kong China Temple
+                </figcaption>
+
+            </figure>
+
+
+            <figure id="small">
+
+                <img src="images/Santo-Domingo.jpg"
+                    alt="Santo Domingo Dominican Republic Temple" loading="lazy" width="800" height="533">
+                <figcaption>
+                    Santo Domingo Dominican Republic Temple
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Emanuel Herrera - Guatemala City
+        </p>
+        <p id="lastmodified"><span id="lastmodifiedContent"></span> </p>
+    </footer>
+
+</body>
+
+</html>

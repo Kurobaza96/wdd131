@@ -1,0 +1,44 @@
+@media screen and (min-width: 700px) {
+
+        .header-inner {
+        padding: 1.2rem 2rem;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+
+    nav {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0;
+        gap: 0.25rem;
+    }
+
+    nav a {
+        border-top: 0;
+        border-radius: 6px;
+        padding: 0.65rem 0.85rem;
+    }
+
+    main {
+        padding-top: 2.75rem;
+    }
+
+    .temple-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.75rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
