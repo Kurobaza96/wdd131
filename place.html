@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guatemala | A Beautiful Country</title>
+    <meta name="description"
+        content="Learn about Guatemala, its culture, geography, and weather.">
+    <meta name="author" content="Emanuel Herrera">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>        
+
+        <h1>Guatemala</h1>
+            <nav> 
+                <a href="place.html">Home</a> 
+                <a href="#about">About</a> 
+                <a href="#weather">Weather</a> 
+            </nav>    
+
+    </header>
+
+
+    <main id="home">
+
+        <section class="hero">
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/guatemala-small.webp">
+                <source media="(min-width: 601px)" srcset="images/guatemala-large.webp"> <img src="images/guatemala-large.webp"
+                    alt="Beautiful landscape of Guatemala" width="1200" height="600">
+            </picture>
+            <div class="hero-title">
+                <h2>Guatemala</h2>
+            </div>
+        </section>
+        <section class="content">
+            <section id="about" class="about card">
+                <h2>About Guatemala</h2>
+                <p> Guatemala is a beautiful country in Central America known for its mountains, volcanoes, lakes, forests, and
+                    rich cultural history. It is home to many Mayan communities and has a strong cultural connection to its
+                    indigenous heritage. </p>
+                <p> Guatemala has many interesting places to visit, including Antigua Guatemala, Lake Atitlán, Tikal, and
+                    Guatemala City. The country is also known for its colorful markets, traditional clothing, and delicious
+                    food. </p>
+                <div class="facts">
+                    <h3>Country Facts</h3>
+                    <ul>
+                        <li><strong>Capital:</strong> Guatemala City</li>
+                        <li><strong>Continent:</strong> North America</li>
+                        <li><strong>Region:</strong> Central America</li>
+                        <li><strong>Currency:</strong> Guatemalan Quetzal</li>
+                        <li><strong>Official Language:</strong> Spanish</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="weather" class="weather card">
+                <h2>Weather</h2> <img class="weather-icon" src="images/weather.svg" alt="Partly cloudy weather">
+                <div class="weather-information">
+                    <p> <strong>Temperature:</strong> <span id="temperature">8</span> °C </p>
+                    <p> <strong>Conditions:</strong> Partly Cloudy </p>
+                    <p> <strong>Wind:</strong> <span id="wind-speed">12</span> km/h </p>
+                    <p> <strong>Wind Chill:</strong> <span id="windchill">N/A</span> </p>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Emanuel Herrera - Guatemala City
+        </p>
+        <p id="lastmodified"><span id="lastmodifiedContent"></span> </p>
+    </footer>
+
+</body>
+
+</html>
