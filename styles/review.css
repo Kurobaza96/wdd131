@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1ea;
+    color: #222;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+.confirmation {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.confirmation h2 {
+    font-size: 2rem;
+}
+
+#reviewCount {
+    font-size: 1.5rem;
+}
+
+.confirmation a {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.2rem;
+    background-color: #263238;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.confirmation a:hover {
+    background-color: #455a64;
+}
+
+footer {
+    text-align: center;
+    background-color: #263238;
+    color: white;
+    padding: 1.5rem;
+}
+
+footer p {
+    margin: 0.3rem;
+}
+
+@media screen and (min-width: 700px) {
+    .confirmation {
+        padding: 3rem;
+    }
+}
