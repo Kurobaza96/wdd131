@@ -1,0 +1,60 @@
+@media (min-width: 900px) {
+    .menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    nav a {
+        padding: 0.6rem 1rem;
+    }
+
+    .hero {
+        min-height: 600px;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .intro {
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        padding: 6rem 0;
+    }
+
+    .food-preview-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .food-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .culture {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 5rem 0;
+    }
+
+    .ingredient-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .form-section {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+    }
+
+    .copyright {
+        grid-column: 1 / -1;
+    }
+}

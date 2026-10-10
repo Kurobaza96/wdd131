@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore traditional Guatemalan foods including tamales, Kak-ik, and tostadas. Learn about their ingredients, preparation methods, and cultural significance.">
+    <meta name="author" content="Emanuel Herrera">
+    <title>Sabores de Guatemala | Traditional Foods</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a class="logo" href="index.html">Sabores de Guatemala</a>
+
+            <button id="menu-button" class="menu-button" aria-label="Open navigation menu">
+                ☰
+            </button>
+
+            <nav id="navigation">
+                <a href="index.html">Home</a>
+                <a class="active" href="foods.html">Traditional Foods</a>
+                <a href="about.html">Food & Culture</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <div class="section-container">
+                <p class="eyebrow">Explore Guatemala</p>
+                <h1>Traditional Foods</h1>
+                <p>
+                    Discover ingredients, flavors, preparation methods, and
+                    cultural traditions behind some of Guatemala's best-known foods.
+                </p>
+            </div>
+        </section>
+
+        <section class="food-explorer section-container">
+            <div class="section-heading">
+                <p class="eyebrow">Food Explorer</p>
+                <h2>Choose a category</h2>
+                <p>
+                    Use the buttons below to explore different types of
+                    traditional Guatemalan foods.
+                </p>
+            </div>
+
+            <div class="filter-buttons" aria-label="Food categories">
+                <button class="filter-button active-filter" data-category="all">
+                    All Foods
+                </button>
+                <button class="filter-button" data-category="main">
+                    Main Dishes
+                </button>
+                <button class="filter-button" data-category="snack">
+                    Snacks
+                </button>
+            </div>
+
+            <p id="filter-message" class="filter-message" aria-live="polite"></p>
+
+            <div id="food-container" class="food-grid">
+                <!-- JavaScript generates the food cards here -->
+            </div>
+        </section>
+
+        <section class="favorite-section">
+            <div class="section-container favorite-content">
+                <div>
+                    <p class="eyebrow">Your Favorite</p>
+                    <h2 id="favorite-title">Choose a favorite food</h2>
+                    <p id="favorite-message">
+                        Select a food below to save it as your favorite.
+                    </p>
+                </div>
+
+                <div class="favorite-icon" aria-hidden="true">❤️</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>Sabores de Guatemala</h2>
+                <p>Discover the flavors, traditions, and history of Guatemala.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="references.html">References</a>
+                <a href="about.html">Food & Culture</a>
+            </div>
+
+            <p class="copyright">
+                &copy; <span id="current-year"></span> Emanuel Herrera
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

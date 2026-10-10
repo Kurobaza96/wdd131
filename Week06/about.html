@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Guatemalan food culture and share your favorite traditional dish. Discover the history, ingredients, and cultural significance of Guatemalan cuisine.">
+    <meta name="author" content="Emanuel Herrera">
+    <title>Sabores de Guatemala | Food & Culture</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a class="logo" href="index.html">Sabores de Guatemala</a>
+
+            <button id="menu-button" class="menu-button" aria-label="Open navigation menu">
+                ☰
+            </button>
+
+            <nav id="navigation">
+                <a href="index.html">Home</a>
+                <a href="foods.html">Traditional Foods</a>
+                <a class="active" href="about.html">Food & Culture</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <div class="section-container">
+                <p class="eyebrow">Culture & Tradition</p>
+                <h1>Food & Culture</h1>
+                <p>
+                    Guatemalan cuisine reflects the country's history,
+                    geography, and cultural diversity.
+                </p>
+            </div>
+        </section>
+
+        <section class="culture section-container">
+            <article class="culture-card">
+                <h2>Maya Influence</h2>
+                <p>
+                    Maya culture has had a profound influence on Guatemalan
+                    cuisine. Corn, beans, chilies, tomatoes, and other native
+                    ingredients continue to play an important role in many
+                    traditional dishes.
+                </p>
+            </article>
+
+            <article class="culture-card">
+                <h2>Family Traditions</h2>
+                <p>
+                    Many traditional recipes are prepared during family
+                    gatherings, holidays, celebrations, and religious events.
+                    Preparing food can become a way of preserving memories
+                    and passing knowledge between generations.
+                </p>
+            </article>
+
+            <article class="culture-card">
+                <h2>Regional Flavors</h2>
+                <p>
+                    Guatemala's different regions have their own ingredients,
+                    cooking methods, and specialties. The result is a diverse
+                    culinary tradition where food can tell us about the
+                    community where it originated.
+                </p>
+            </article>
+        </section>
+
+        <section class="ingredient-section">
+            <div class="section-container">
+                <div class="section-heading">
+                    <p class="eyebrow">Important Ingredients</p>
+                    <h2>Flavors that define Guatemalan cuisine</h2>
+                </div>
+
+                <div class="ingredient-grid">
+                    <div class="ingredient-card">
+                        <span>🌽</span>
+                        <h3>Corn</h3>
+                        <p>A foundational ingredient in many traditional foods.</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <span>🌶️</span>
+                        <h3>Chilies</h3>
+                        <p>Add flavor, aroma, and different levels of heat.</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <span>🍅</span>
+                        <h3>Tomatoes</h3>
+                        <p>Used in sauces, stews, soups, and many toppings.</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <span>🌿</span>
+                        <h3>Herbs & Spices</h3>
+                        <p>Help create the distinctive aromas of traditional dishes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-section section-container">
+            <div class="form-intro">
+                <p class="eyebrow">Share Your Experience</p>
+                <h2>What's your favorite Guatemalan food?</h2>
+                <p>
+                    Tell us which traditional food you enjoy and what makes
+                    it special to you.
+                </p>
+            </div>
+
+            <form id="food-form">
+                <label for="visitor-name">Your name</label>
+                <input type="text" id="visitor-name" name="visitor-name" autocomplete="name" required>
+
+                <label for="visitor-email">Email address</label>
+                <input type="email" id="visitor-email" name="visitor-email" autocomplete="email" required>
+
+                <fieldset>
+                    <legend>Favorite traditional food</legend>
+
+                    <label>
+                        <input type="radio" name="favorite-food" value="Tamales" required>
+                        Tamales
+                    </label>
+
+                    <label>
+                        <input type="radio" name="favorite-food" value="Kak-ik">
+                        Kak-ik
+                    </label>
+
+                    <label>
+                        <input type="radio" name="favorite-food" value="Tostadas">
+                        Tostadas
+                    </label>
+                </fieldset>
+
+                <label for="food-comment">Why do you like it?</label>
+                <textarea id="food-comment" name="food-comment" rows="5" required></textarea>
+
+                <button class="button" type="submit">Share My Favorite</button>
+
+                <p id="form-message" class="form-message" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>Sabores de Guatemala</h2>
+                <p>Discover the flavors, traditions, and history of Guatemala.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="references.html">References</a>
+                <a href="about.html">Food & Culture</a>
+            </div>
+
+            <p class="copyright">
+                &copy; <span id="current-year"></span> Emanuel Herrera
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
