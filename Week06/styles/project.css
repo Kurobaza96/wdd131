@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     line-height: 1.6;
     color: var(--dark);
     background-color: var(--cream);
@@ -227,6 +227,7 @@ nav a.active {
 
 .preview-card img,
 .food-card>img {
+    display: block;
     width: 100%;
     aspect-ratio: 3 / 2;
     object-fit: cover;
